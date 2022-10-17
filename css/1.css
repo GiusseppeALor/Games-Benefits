@@ -1,0 +1,69 @@
+.dropdown{
+    margin: 0 auto;
+}
+
+nav{
+    height: 60px;
+    background: #0d0054;
+    box-shadow: 0 10px 15px rgb(0, 0, 0, 0.1);
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 150px;
+}
+
+nav ul li{
+    background: #0d0054;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+nav ul li a :hover{
+    background: crimson;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover> ul{
+    display: block;
+}
+
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 1;
+}
+
+.bd{
+    padding-top: 50px;
+    background-image: url(https://i.pinimg.com/564x/4c/a0/e5/4ca0e5de106aa6d423f494c3061e1852.jpg);
+    height: 600px;
+    width: auto;
+    background-size: cover;
+    background-position: center center;
+}
